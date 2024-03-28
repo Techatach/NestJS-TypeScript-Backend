@@ -1,4 +1,20 @@
-import { IsNotEmpty, IsString, IsOptional } from 'class-validator';
+import { IsNotEmpty, IsString, IsOptional, IsBoolean } from 'class-validator';
+
+export const CreateUserSettingsDto {
+  @IsOptional()
+  @IsBoolean()
+  receiveNotifications?: boolean;
+
+  @IsOptional()
+  @IsBoolean()
+  receiveEmails?: boolean;
+
+  @IsOptional()
+  @IsBoolean()
+  receiveSMS?: boolean;
+
+  
+}
 
 export class CreateUserDto {
   @IsNotEmpty()
@@ -8,4 +24,7 @@ export class CreateUserDto {
   @IsString()
   @IsOptional()
   displayName?: string;
+
+  settings?: CreateUserSettingsDto
+
 }
