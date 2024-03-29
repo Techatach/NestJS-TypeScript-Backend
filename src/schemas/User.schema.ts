@@ -14,7 +14,7 @@ export class User {
   avatarUrl?: string;
 
   @Prop({ type: mongoose.Schema.Types.ObjectId, ref: 'UserSettings' })
-  Settings?: UserSettings;
+  settings?: UserSettings;
 }
 
 export const UserSchema = SchemaFactory.createForClass(User);
