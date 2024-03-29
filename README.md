@@ -1,3 +1,5 @@
+https://www.youtube.com/watch?v=dJz94r5C3QA
+
 1. เปิด https://docs.nestjs.com/
    npm i -g @nestjs/cli
    nest new project-name
