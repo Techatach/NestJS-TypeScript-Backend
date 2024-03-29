@@ -32,7 +32,7 @@ export class UsersService {
   }
 
   getUserById(id: string) {
-    return this.userModel.findById(id);
+    return this.userModel.findById(id).populate('settings');
   }
 
   updateUser(id: string, updateUserDto: UpdateUserDto) {
