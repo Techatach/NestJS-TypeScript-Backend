@@ -8,7 +8,11 @@ https://www.youtube.com/watch?v=dJz94r5C3QA
    5.npm i @nestjs/mongoose mongoose
    6.รัน npm run start:dev
    7.ให้ลบไฟล์ app.controller.spec.ts, app.controller.ts และ app.service.ts ออก
+<<<<<<< HEAD
 2. ในไฟล์ aap.module.ts ให้ลบและเพิ่มโค้ด ดังนี้
+=======
+
+>>>>>>> ae50575 (first commit)
 3. ในไฟล์ aap.module.ts ให้ลบและเพิ่มโค้ด ดังนี้
 
 
